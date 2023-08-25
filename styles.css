@@ -1,1 +1,9 @@
+thead {
+            background-color: #343a40;
+            color: #ffffff;
+        }
 
+        
+        tfoot {
+            background-color: #f8f9fa;
+        }

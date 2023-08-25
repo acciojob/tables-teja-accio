@@ -9,23 +9,20 @@
 	<caption>List of all transactions</caption>
 		
 	<table class="table">
-		<thead class="thread-dark">
+		<thead class="thead-dark">
 			<tr>
-			<th>#</th>
-			
-			<th>From</th>
-			
-			<th>To</th>
-			
-			<th>Amount($)</th>
+				<th>#</th>
+				<th>From</th>
+				<th>To</th>
+				<th>Amount($)</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>1</td>
-				<td>Mark</td>
-				<td>Otto</td>
-				<td>1000</td>
+				<td scope="col">1</td>
+				<td scope="col">Mark</td>
+				<td scope="col">Otto</td>
+				<td scope="col">1000</td>
 			</tr>
 			<tr>
 				<td>2</td>
@@ -39,9 +36,14 @@
 				<td>John</td>
 				<td>2000</td>
 			</tr>
-			
 		</tbody>
-		<tfoot></tfoot>
+		<tfoot>
+			<tr>
+				
+				<td colspan="3" class="font-monospace text-end fw-bold">Total 4000</td>
+				<td></td>
+			</tr>
+		</tfoot>
 	</table>
 
 	
